@@ -1,0 +1,192 @@
+*{
+ margin: 0;
+ padding: 0;
+ list-style-type: none;
+ text-decoration: none;
+ box-sizing: border-box;   
+}
+
+header{
+    padding-top: 120px;
+    width: 100%;
+}
+
+
+body{
+    background-image: url(../img/Rectangle\ 1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+nav ul{
+    
+    width: 594px;
+    justify-content: space-between;
+    
+    position: absolute;
+    right: 210px;
+    top: 50px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+
+}
+.vegan{
+    width: 228px;
+    height: 70px;
+    background-color: #39B331;
+    text-align: center;
+    padding-top: 22px;
+    border-radius: 0 35px 0 35px;
+    
+
+}
+.magazia{
+    width: 126px;
+    height: 70px;
+    background-color: #c4c4c4;
+    padding-top: 24px;
+    text-align: center;
+    border-radius: 0 35px 0 35px;
+    
+}
+.shop{
+    width: 70px;
+    height: 70px;
+    background-color: #c4c4c4;
+    text-align: center;
+    padding-top: 24px;
+    border-radius: 0 35px 0 35px;
+}
+.vegan a{
+    color: #ffffff;
+    font-size: 18px;
+}
+.magazia a, .shop a{
+    color: #000000;
+    font-size: 18px;
+}
+.anime{
+    width: 422px;
+    height: 188px;
+    /* background-color: aqua; */
+    position: absolute;
+    right: 214px;
+    top: 214px;
+}
+.wre{
+    width: 32px;
+    height: 32px;
+    background-color: #39B331;
+    border-radius: 50%;
+    position: relative;
+    animation: animacia 2s infinite
+}
+
+
+@keyframes animacia {
+    0%{top:0; left:0;}
+    25%{top:0; left:390px;}
+    50%{top:156px; left: 390px;}
+    75%{top:156px; left:0; }
+    100%{top:0; left:0;}
+}
+
+.texti {
+    text-align: center;
+    font-size: 18px;
+    
+}
+.dro{
+    text-align: center;
+    font-size: 36px;
+    padding-top: 22px;
+
+}
+
+.xe{
+    width: 1060px;
+    height: 500px;
+    /* background-color: aquamarine; */
+    /* position: absolute;
+    top: 526px;
+    right: 42px; */
+    margin-top: 400px;
+    margin-left: 270px;
+    position: relative;
+    
+}
+.tani{
+    background-color: #c4c4c4;
+    width: 1px;
+    height: 100%;
+    margin: 0 auto;
+}
+.potolia{
+    width: 70px;
+    height: 70px;
+    background-color: #39B331;
+    border-radius: 0 35px 0 35px;
+}
+.potolib, .potolid{
+    width: 70px;
+    height: 70px;
+    background-color: #c4c4c4;
+    border-radius: 35px 0 35px 0;
+}
+.potolic{
+    width: 70px;
+    height: 70px;
+    background-color: #c4c4c4;
+    border-radius: 0 35px 0 35px;   
+}
+.toti1, p{
+    width: 420px;
+    font-size: 18px;
+
+}
+.mwvane{
+    color: #39B331;
+}
+.toti1{
+    width: 530px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.toti2{
+    width: 530px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    position: absolute;
+    top: 114px;
+    left: 50%; 
+}
+.toti3{
+    width: 530px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 218px;
+}
+.toti4{
+    width: 530px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 324px;
+    left: 50%;
+}
