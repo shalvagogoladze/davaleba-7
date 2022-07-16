@@ -36,9 +36,9 @@ ul{
 .vegan{
     width: 228px;
     height: 70px;
-    background-color: #39B331;
+    background-color: #c4c4c4;
     text-align: center;
-    padding-top: 22px;
+    /* padding-top: 22px; */
     border-radius: 0 35px 0 35px;
     
 
@@ -47,7 +47,7 @@ ul{
     width: 126px;
     height: 70px;
     background-color: #c4c4c4;
-    padding-top: 24px;
+    /* padding-top: 24px; */
     text-align: center;
     border-radius: 0 35px 0 35px;
     
@@ -57,17 +57,41 @@ ul{
     height: 70px;
     background-color: #c4c4c4;
     text-align: center;
-    padding-top: 24px;
+    /* padding-top: 24px; */
     border-radius: 0 35px 0 35px;
 }
-.vegan a{
+/* .vegan a{
     color: #ffffff;
     font-size: 18px;
-}
-.magazia a, .shop a{
+} */
+.magazia a, .shop a, .vegan a{
     color: #000000;
     font-size: 18px;
+    display: block;
+    padding: 24px 10px;
+    transition: background-color 2s;
 }
+
+.shop:hover{
+    background-color: #39B331;
+    
+}
+ .vegan:hover{
+    background-color: #39B331;
+ }
+ .magazia:hover{
+    background-color: #39B331;
+ }
+.shop:hover a{
+    color: #ffffff;
+ }
+ .vegan:hover a{
+    color: #ffffff;
+ }
+ .magazia:hover a{
+    color: #ffffff;
+ }
+
 .anime{
     width: 422px;
     height: 188px;
@@ -127,7 +151,7 @@ ul{
 .potolia{
     width: 70px;
     height: 70px;
-    background-color: #39B331;
+    background-color: #c4c4c4;
     border-radius: 0 35px 0 35px;
 }
 .potolib, .potolid{
@@ -147,9 +171,9 @@ ul{
     font-size: 18px;
 
 }
-.mwvane{
+/* .mwvane{
     color: #39B331;
-}
+} */
 .toti1{
     width: 530px;
     height: 70px;
@@ -189,4 +213,37 @@ ul{
     position: absolute;
     top: 324px;
     left: 50%;
+}
+
+
+.toti1:hover .potolia{
+    background-color: #39B331;
+    color: #39B331;
+}
+.toti1:hover p{
+    color: #39B331;
+}
+
+.toti2:hover .potolib{
+    background-color: #39B331;
+    color: #39B331;
+}
+.toti2:hover p{
+    color: #39B331;
+}
+
+.toti3:hover .potolic{
+    background-color: #39B331;
+    color: #39B331;
+}
+.toti3:hover p{
+    color: #39B331;
+}
+
+.toti4:hover .potolid{
+    background-color: #39B331;
+    color: #39B331;
+}
+.toti4:hover p{
+    color: #39B331;
 }
